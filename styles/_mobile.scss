@@ -1,0 +1,120 @@
+body {
+  background-color: #e5eef4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main__container {
+  margin: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  width: 93vw;
+  font-family: "Karla", sans-serif;
+  box-shadow: 10px 5px 5px lightgray;
+}
+
+.join_us {
+  background-color: white;
+  padding: 1em 1.5em 1.5em 1.5em;
+
+  .join_us__title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #29b1af;
+    margin-bottom: 1rem;
+  }
+  .join_us__subtitle {
+    font-weight: 400;
+    color: #bfde35;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .join_us__text {
+    font-weight: 400;
+    color: #98a5bd;
+    letter-spacing: 0px;
+    line-height: 30px;
+  }
+}
+
+.subscription {
+  background-color: #29b1af;
+  color: white;
+  padding: 1em 1.5em 1.5em 1.5em;
+
+  .subscription__title {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+
+  .subscription__price {
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    color: whitesmoke;
+    align-items: center;
+    font-size: 1rem;
+
+    .price_dollar {
+      font-size: 1.8em;
+      margin-right: 10px;
+    }  
+  }
+
+  .subscription__text{
+    margin-top: 1rem;
+  }
+
+  .subscription__button {
+    border-radius: 5px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 3em;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #bfde35;
+    letter-spacing: 0px;
+    line-height: 22px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+  }
+}
+
+.why_us {
+  background-color: #71cac9;
+  padding: 1em 1.5em 1.5em 1.5em;
+  color: white;
+
+  .why_us__title {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  .why_us__list {
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+
+    li {
+      color: white;
+      font-size: 0.9em;
+      padding: 0px;
+      text-decoration: none;
+      list-style: none;
+      font-weight: 400;
+      letter-spacing: 0px;
+      line-height: 22px;
+    }
+  }
+}
